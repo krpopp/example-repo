@@ -15,10 +15,10 @@ public class EnemyAnim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        blinkTime = Random.Range(blinkMin, blinkMax);
+        blinkTime = Random.Range(blinkMin, blinkMax + 1);
         myAnim = GetComponent<Animator>();
     }
-
+    // hiiiii
     // Update is called once per frame
     void Update()
     {
